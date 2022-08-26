@@ -1,0 +1,97 @@
+.app {
+  background-color: #fafafa;
+
+}
+
+.app__posts{
+  padding: 15px; 
+  justify-content: center;
+  
+}
+
+.app__header {
+  position: sticky; 
+  top: 0; 
+  z-index:1; 
+  background-color: white; 
+  padding: 10px; 
+  border-bottom: 1px solid lightgrey; 
+  object-fit : contain; 
+  display : flex; 
+  justify-content: space-between;
+  font-size:12px;
+
+
+}
+.app__headerImage {
+  background-color: white;
+  padding: 0px; 
+  border-bottom: 1px solid lightgray;
+  object-fit: contain; 
+  width: 10%;
+
+}
+
+.app__signup{
+  display : flex;
+  flex-direction: column; 
+  padding: 20px; 
+  border-bottom: 1px solid lightgray;
+}
+
+.post {
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  padding-left:0px!important;
+  margin-left: 145px!important;
+  width:500px;
+}
+
+.MuiButton-label {
+  margin-top:5px;
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  font-size: 11px;
+  justify-content: inherit;
+}
+
+@media (max-width: 640px) {
+  .title-header{
+    display:none;
+  }
+  .button-small-layout{
+    margin-left:140px;
+  }
+  .sidebar{
+    display:none;
+    
+}
+.post {
+  background-color: white;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  padding-left:0px!important;
+  margin-left:-45px!important;
+  width:250px;
+}
+
+
+.modalStyle{
+ left:25%;
+ top:25%;
+}
+}
+
+@media (min-width: 1440px) {
+  .post {
+    background-color: white;
+    border: 1px solid lightgray;
+    margin-bottom: 45px;
+    padding-left:0px!important;
+    margin-left: 250px!important;
+    width:500px;
+  }
+
+}
