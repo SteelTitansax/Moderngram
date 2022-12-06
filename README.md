@@ -1,4 +1,5 @@
-Social network developed in HTML, CSS, Javascript, React and Firebase as a Database
+#Moderngram
+##Social network developed in HTML, CSS, Javascript, React and Firebase as a Database
 
 ## Available Scripts
 
